@@ -1,0 +1,57 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 60,
+        "width": 60
+    },
+    "display": "Math.js",
+    "edit_mode_image": "//s3.amazonaws.com/appforest_uf/f1517338142911x248345735250040900/mathjslocal.png",
+    "events": {
+        "AAN": {
+            "caption": "error occurred",
+            "doc": "Error occurred",
+            "name": "error"
+        }
+    },
+    "fields": {
+        "AAH": {
+            "caption": "Expression",
+            "doc": "Expression to evaluate. See http://mathjs.org/docs/expressions/index.html",
+            "editor": "DynamicValue",
+            "name": "expression",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "icon": "ion-ios-calculator",
+    "states": {
+        "AAG": {
+            "caption": "Result (Number)",
+            "doc": "Expression result as a number",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "result_number",
+            "value": "number"
+        },
+        "AAI": {
+            "caption": "Result (Text)",
+            "doc": "Expression result as a text",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "result_text",
+            "value": "text"
+        },
+        "AAO": {
+            "caption": "Error string",
+            "doc": "Error string",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "error_string",
+            "value": "text"
+        }
+    }
+}
